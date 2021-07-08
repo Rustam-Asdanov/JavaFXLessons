@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lessonTwo.Controller">
+   <children>
+      <Circle fx:id="player" fill="DODGERBLUE" layoutX="241.0" layoutY="162.0" radius="62.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="67.0" layoutY="30.0" mnemonicParsing="false" onAction="#startFunction" text="start" />
+   </children>
+</AnchorPane>
