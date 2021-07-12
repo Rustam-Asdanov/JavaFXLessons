@@ -7,5 +7,6 @@
    <children>
       <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#openFilteredExample" text="filtered table example" />
       <Button layoutX="216.0" layoutY="14.0" mnemonicParsing="false" onAction="#playerRunFunction" text="player" />
+      <Button layoutX="300.0" layoutY="14.0" mnemonicParsing="false" onAction="#validationFunction" text="validation" />
    </children>
 </AnchorPane>

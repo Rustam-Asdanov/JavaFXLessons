@@ -60,4 +60,20 @@ public class Controller {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    public void validationFunction(ActionEvent actionEvent) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/lessonThree/sample.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root, 712,493));
+            stage.setTitle("New Window");
+            stage.setResizable(false);
+            stage.show();
+            ((Stage) anchor.getScene().getWindow()).close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
